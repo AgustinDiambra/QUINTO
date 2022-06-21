@@ -46,7 +46,7 @@ nav a:hover {
     color: aliceblue;
 }
 
-
+/* CONTAINER */
 .container {
     width: 90%;
     max-width: 1000px;
@@ -64,7 +64,13 @@ nav a:hover {
         justify-content: center;
         transition: all 0.5s ease;
         border-radius: 30px;
+        margin-top: 150px;
     }
+    .container>.related-post:hover {
+        cursor: pointer;
+        color: #000000;
+        background: #ffffff;
+    } 
 
 @media (max-width:700px){
     header {
@@ -72,6 +78,9 @@ nav a:hover {
     }
     nav {
         padding: 10px 0px;
+    }
+    .container .related-post {
+        grid-column: 1/-1;
     }
 }
 
