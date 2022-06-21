@@ -72,6 +72,20 @@ nav a:hover {
         background: #ffffff;
     } 
 
+    footer {
+        display: flex;
+        min-height: 70px;
+        background-color: #576F9F;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 350px;  
+    }
+
+    footer a:hover {
+        color: #ffffff;
+    }
+
 @media (max-width:700px){
     header {
         flex-direction: column;
@@ -81,6 +95,9 @@ nav a:hover {
     }
     .container .related-post {
         grid-column: 1/-1;
+    }
+    footer {
+        flex-direction: column;
     }
 }
 
